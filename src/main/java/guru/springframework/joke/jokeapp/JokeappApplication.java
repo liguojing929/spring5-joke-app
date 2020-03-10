@@ -1,5 +1,6 @@
 package guru.springframework.joke.jokeapp;
 
+import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,5 +11,7 @@ public class JokeappApplication {
 
 		SpringApplication.run(JokeappApplication.class, args);
 	}
+
+
 
 }
